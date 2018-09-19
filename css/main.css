@@ -13,11 +13,11 @@ body {
   padding: 0;
   font-family: "宋体";
   font-size: 16px;
+  background-color: rgb(239,239,239);
   }
   
 .top{
-	height:24px
-	background-color: #F2F3F5;
+	
 }
 	
 img.advx{
@@ -30,34 +30,36 @@ img.advx{
 	border-radius: 5px;
 	box-shadow: 0 0 3px #ccc;
 }
+.top { 
+	position: fixed; 
+	top: 0;
+	width: 100%; 
+	height: 65px;
+	line-height: 65px; 
+	background: rgba(255,255,255,0.9); 
+	text-align: center; 
+	border-bottom: 1px solid #ddd; 
+}
 
+.logo { 
+	/*background-color: aqua;*/
+	float: left;
+	margin:0 100px 0 100px;
+	font-size: 20px;
+	font-family: "宋体";
+}
 
-.nav2{
-	clear: right;
-}
-.nav2 ul{
-	margin: 0 auto;
-	height: 45px;
-	padding:0 0 0 20%;
-}
-.nav2 li {
-	display: inline;
-	font-size: 18px;
-	line-height: 25px;
-	background-color: rgb(11,94,165);
-	margin: 20px 20px;
-	padding: 10px;
-	border:1px solid #ccc;
-	border-radius: 5px;
-	box-shadow: 0 0 3px #ccc;
-}
+.top ul{
+margin: 0 40px 0 0;	
 	
-.nav2 a {
-	padding: 0 35px;
-	color: #fff;
 }
-.nav2 a:hover,.nav2 a:active {
-	background-color: #4593FD;
+
+.top li{
+	/*background-color: aquamarine;*/
+	float: right; 
+	margin: 0 15px;
+	font-size: 16px;
+	font-family: "宋体";
 }
 
 .wrapper{
@@ -113,9 +115,7 @@ h3{
 	font-size: 28px;
 }
 .main_text {
-	float: left;
-	background-color: #E8e8E8;
-	margin-top: 10px;
+	
 	}
 
 .comment{
