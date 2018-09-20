@@ -15,11 +15,8 @@ body {
   font-size: 16px;
   background-color: rgb(239,239,239);
   }
-  
-.top{
-	
-}
-	
+ 
+/*微信二维码的样式*/
 img.advx{
 	position:fixed;/*设置元素为固定定位*/
     top:10%;/*距离浏览器顶部30px*/
@@ -30,6 +27,9 @@ img.advx{
 	border-radius: 5px;
 	box-shadow: 0 0 3px #ccc;
 }
+
+
+/*顶部搜索栏的样式*/
 .top { 
 	position: fixed; 
 	top: 0;
@@ -40,20 +40,16 @@ img.advx{
 	text-align: center; 
 	border-bottom: 1px solid #ddd; 
 }
-
-.logo { 
+.me { 
 	/*background-color: aqua;*/
 	float: left;
 	margin:0 100px 0 100px;
 	font-size: 20px;
 	font-family: "宋体";
 }
-
 .top ul{
 margin: 0 40px 0 0;	
-	
 }
-
 .top li{
 	/*background-color: aquamarine;*/
 	float: right; 
@@ -62,67 +58,183 @@ margin: 0 40px 0 0;
 	font-family: "宋体";
 }
 
+/*主体的布局*/
 .wrapper{
 	width: 82%;
-	margin: 0 auto;
-}
-
-img.ai{
- 	padding: 10px;
-	border:1px solid #ccc;
-	border-radius: 5px;
-	box-shadow: 0 0 3px #ccc;
-	width:50%;                                        
- 	/*opacity:0.4;
-    filter:alpha(opacity=40); */
- } 
-img.ai:hover
-{
-    /*opacity:1.0;
-    filter:alpha(opacity=100); */
-}
- 
-.wrapper{
-	
+	margin: 65px auto 0 auto;
 }
 
 .one{
-	float:left;
-	width: 58%;
-	margin:0 auto;
-	padding: 10px;
-	border:1px solid #ccc;
-	border-radius: 5px;
-	box-shadow: 0 0 3px #ccc;
+	float: left;
+	width: 28%;
 }
-
-#poetry{
-	width: 60%;
-	margin: auto;
-}
-
 .two{
+	float: right;
+	width: 66%;
+}
+
+
+/*左边侧栏的布局*/
+
+/*搜索框的样式*/
+.search{
+	width:100%;
+	height: auto;
+	margin: 10px auto 20px 0;
+	padding:10px 0 10px 0;
+}
+ .search_text {
+    border: 1px solid ;
+    background: transparent;
+    font-size: 16px;
+    line-height: 2.0;
+    width: 64%;
+    padding: 0;
+}
+.search_button {
+    border-radius: 0 5px 5px 0;
+    font-size: 15px;
+    width: 14%;
+    line-height: 2.0;
+}
+/*自我介绍的样式*/
+.aboutme{
+	width:100%;
+	margin: 20px auto 20px 0;
+	padding: 10px 20px;
+	background-color:white;
+}
+.aboutme img{
+	float:left;
+	width: 35%;
+	padding:0 10px 10px 0;
+}
+.aboutme h2 {
+	color: #333;
+	font-size: 14px; 
+	line-height: 2.2; 
+	padding-left: 20px; 
+}
+.aboutme p{
+	font-size: 14px;
+	line-height: 1.5;
+	color: grey;
+}
+/*我的相册样式*/
+.mypic{
+	width:100%;
+	margin: 20px auto 20px 0;
+	padding: 10px 20px;
+	background-color:white;
+}
+.mypic h2 {
+	color: #333;
+	font-size: 14px; 
+	line-height: 2.2; 
+	padding-left: 20px; 
+}
+.mypic img{ 
+	display: inline-block;
+	width: 30%;
+	margin: 3px 2px 2px 0; 
+}
+/*我的文章样式*/
+.wenzhang{
+	width:100%;
+	margin: 20px auto 20px 0;
+	padding: 10px 20px;
+	background-color:white;
+}
+.wenzhang h2 {
+	color: #333;
+	font-size: 14px; 
+	line-height: 2.2; 
+	padding-left: 20px; 
+}
+.wenzhang li{ 
+	margin: 3px 2px 2px 0; 
+	padding-left: 20px; 
+	font-size: 14px; 
+	line-height: 2.2; 
+}
+/*我的推荐样式*/
+.tuijian{
+	width:100%;
+	margin: 20px auto 20px 0;
+	padding: 10px 20px;
+	background-color:white;
+}
+.tuijian h2 {
+	color: #333;
+	font-size: 14px; 
+	line-height: 2.2; 
+	padding-left: 20px; 
+}
+.tuijian li{ 
+	margin: 3px 2px 2px 0; 
+	padding-left: 20px; 
+	font-size: 14px; 
+	line-height: 2.0; 
+	text-overflow: ellipsis; 
+	white-space: nowrap; 
+	overflow: hidden; 
+}
+
+
+/*右边侧栏的样式*/
+.aboutshe{
+	width:100%;
+	height: auto;
+	margin: 20px 0 20px auto;
+	padding: 20px;
+	background-color:white;
+	border-radius: 5px;
+}
+.aboutshe h3{
+	font-size: 16px; 
+	line-height: 2.0;
+	padding-left: 20px; 
+}
+.aboutshe p{
+	font-size: 16px; 
+	line-height: 2.0;
+	padding: 10px 20px; 
+	overflow: hidden; 
+	text-overflow: ellipsis; -webkit-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 4; 
+}
+
+.aboutshe img{
 	float:right;
-	width: 32%;
-	margin:0 auto;
+	width: 40%;
+}
+/*表格的样式*/
+
+
+/*图片区的样式*/
+#main_pic{
+		-webkit-column-width:229px;
+		-moz-column-width:229px;
+		-o-column-width:229px;
+		-ms-column-width:229px;
+	}
+.picbox{
+	padding: 10px 0 0 15px;
+	display: inline-block;
+	}
+.pic{
 	padding: 10px;
 	border:1px solid #ccc;
 	border-radius: 5px;
 	box-shadow: 0 0 3px #ccc;
-}
-h3{
-	font-family: "微软雅黑";
-	font-size: 28px;
-}
-.main_text {
-	
+	width:192px;
+	}
+.pic img{
+	width:192px;
+	height: auto;
 	}
 
-.comment{
-	float: right;
-}
 
-table{
+/*table{
 	clear: left;
 	margin: 0 auto;
 }
@@ -135,8 +247,10 @@ table,td,th {
 		}
 	td.average{
 		background-color: green;
-	}
+	}*/
 
+
+/*广告栏的样式*/
 .adbox {
 	clear: both;
 	width: 100%;
@@ -170,6 +284,8 @@ table,td,th {
 	font-size: 14px;
 }
 
+
+/*页脚的样式*/
 footer{
 	background-color: rgb(11,94,165);
 }
@@ -183,25 +299,3 @@ footer{
 	text-align: center;
 }
 
-
-#main{
-		-webkit-column-width:229px;
-		-moz-column-width:229px;
-		-o-column-width:229px;
-		-ms-column-width:229px;
-	}
-	.box{
-		padding: 10px 0 0 15px;
-		display: inline-block;
-		}
-	.pic{
-		padding: 10px;
-		border:1px solid #ccc;
-		border-radius: 5px;
-		box-shadow: 0 0 3px #ccc;
-		width:192px;
-		}
-	.pic img{
-		width:192px;
-		height: auto;
-		}
