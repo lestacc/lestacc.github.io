@@ -1,21 +1,52 @@
-* {
-	/*border-width: 1px;
- 	border-style: solid;
- 	border-color: Red;*/
- 	/*border:1px solid Red;*/
- 	padding: 0;
-	margin: 0;
+.top{
+	padding: 5px 0;
 }
 
-body {
-  color: #000;
-  margin: 0;
-  padding: 0;
-  font-family: "宋体";
-  font-size: 16px;
-  background-color: rgb(239,239,239);
-  }
- 
+.me { 
+	font-size: 20px;
+	font-family: "宋体";
+}
+
+.picleftpad{
+	padding: 0 10px 10px 0;
+}
+.ppad{
+	padding: 8% 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.yincang{overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:8;}
 /*微信二维码的样式*/
 img.advx{
 	position:fixed;/*设置元素为固定定位*/
@@ -28,187 +59,124 @@ img.advx{
 	box-shadow: 0 0 3px #ccc;
 }
 
-
-/*顶部搜索栏的样式*/
-.top { 
-	position: fixed; 
-	top: 0;
-	width: 100%; 
-	height: 65px;
-	line-height: 65px; 
-	background: rgba(255,255,255,0.9); 
-	text-align: center; 
-	border-bottom: 1px solid #ddd; 
-}
-.me { 
-	/*background-color: aqua;*/
-	float: left;
-	margin:0 100px 0 100px;
-	font-size: 20px;
-	font-family: "宋体";
-}
-.top ul{
-margin: 0 40px 0 0;	
-}
-.top li{
-	/*background-color: aquamarine;*/
-	float: right; 
-	margin: 0 15px;
-	font-size: 16px;
-	font-family: "宋体";
-}
-
-/*主体的布局*/
-.wrapper{
-	width: 82%;
-	margin: 65px auto 0 auto;
-}
-
-.one{
-	float: left;
-	width: 28%;
-}
-.two{
-	float: right;
-	width: 66%;
-}
+/*轮播图的大小控制*/
+/*.carousel-inner img {
+width:100%;
+}*/
 
 
-/*左边侧栏的布局*/
 
-/*搜索框的样式*/
-.search{
-	width:100%;
-	height: auto;
-	margin: 10px auto 20px 0;
-	padding:10px 0 10px 0;
-}
- .search_text {
-    border: 1px solid ;
-    background: transparent;
-    font-size: 16px;
-    line-height: 2.0;
-    width: 64%;
-    padding: 0;
-}
-.search_button {
-    border-radius: 0 5px 5px 0;
-    font-size: 15px;
-    width: 14%;
-    line-height: 2.0;
-}
-/*自我介绍的样式*/
-.aboutme{
-	width:100%;
-	margin: 20px auto 20px 0;
-	padding: 10px 20px;
-	background-color:white;
-}
-.aboutme img{
+
+		 /* 轮播广告 */
+
+        .carousel {
+            height: 500px;
+            margin-bottom: 60px;
+        }
+
+        .carousel .item {
+            height: 500px;
+            background-color: #000;
+        }
+
+        .carousel .item img {
+            width: 100%;
+        }
+
+        .carousel-caption {
+            z-index: 10;
+        }
+
+        .carousel-caption p {
+            margin-bottom: 20px;
+            font-size: 20px;
+            line-height: 1.8;
+        }
+
+        /* 简介 */
+
+        .summary {
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+
+        .summary .col-md-4 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        /* 特性 */
+
+        .feature-divider {
+            margin: 40px 0;
+        }
+
+        .feature {
+            padding: 30px 0;
+        }
+
+        .feature-heading {
+            font-size: 50px;
+            color: #2a6496;
+        }
+
+        .feature-heading .text-muted {
+            font-size: 28px;
+        }
+
+        /* 响应式布局 */
+
+        @media (max-width: 768px) {
+
+            .summary {
+                padding-right: 3px;
+                padding-left: 3px;
+            }
+
+            .carousel {
+                height: 300px;
+                margin-bottom: 30px;
+            }
+
+            .carousel .item {
+                height: 300px;
+            }
+
+            .carousel img {
+                min-height: 300px;
+            }
+
+            .carousel-caption p {
+                font-size: 16px;
+                line-height: 1.4;
+            }
+
+            .feature-heading {
+                font-size: 34px;
+            }
+
+            .feature-heading .text-muted {
+                font-size: 22px;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .feature-heading {
+                margin-top: 120px;
+            }
+        }
+
+
+
+
+
+
+
+
+.wenzhang img{
 	float:left;
-	width: 35%;
-	padding:0 10px 10px 0;
+	width:40%;
 }
-.aboutme h2 {
-	color: #333;
-	font-size: 14px; 
-	line-height: 2.2; 
-	padding-left: 20px; 
-}
-.aboutme p{
-	font-size: 14px;
-	line-height: 1.5;
-	color: grey;
-}
-/*我的相册样式*/
-.mypic{
-	width:100%;
-	margin: 20px auto 20px 0;
-	padding: 10px 20px;
-	background-color:white;
-}
-.mypic h2 {
-	color: #333;
-	font-size: 14px; 
-	line-height: 2.2; 
-	padding-left: 20px; 
-}
-.mypic img{ 
-	display: inline-block;
-	width: 30%;
-	margin: 3px 2px 2px 0; 
-}
-/*我的文章样式*/
-.wenzhang{
-	width:100%;
-	margin: 20px auto 20px 0;
-	padding: 10px 20px;
-	background-color:white;
-}
-.wenzhang h2 {
-	color: #333;
-	font-size: 14px; 
-	line-height: 2.2; 
-	padding-left: 20px; 
-}
-.wenzhang li{ 
-	margin: 3px 2px 2px 0; 
-	padding-left: 20px; 
-	font-size: 14px; 
-	line-height: 2.2; 
-}
-/*我的推荐样式*/
-.tuijian{
-	width:100%;
-	margin: 20px auto 20px 0;
-	padding: 10px 20px;
-	background-color:white;
-}
-.tuijian h2 {
-	color: #333;
-	font-size: 14px; 
-	line-height: 2.2; 
-	padding-left: 20px; 
-}
-.tuijian li{ 
-	margin: 3px 2px 2px 0; 
-	padding-left: 20px; 
-	font-size: 14px; 
-	line-height: 2.0; 
-	text-overflow: ellipsis; 
-	white-space: nowrap; 
-	overflow: hidden; 
-}
-
-
-/*右边侧栏的样式*/
-.aboutshe{
-	width:100%;
-	height: auto;
-	margin: 20px 0 20px auto;
-	padding: 20px;
-	background-color:white;
-	border-radius: 5px;
-}
-.aboutshe h3{
-	font-size: 16px; 
-	line-height: 2.0;
-	padding-left: 20px; 
-}
-.aboutshe p{
-	font-size: 16px; 
-	line-height: 2.0;
-	padding: 10px 20px; 
-	overflow: hidden; 
-	text-overflow: ellipsis; -webkit-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 4; 
-}
-
-.aboutshe img{
-	float:right;
-	width: 40%;
-}
-/*表格的样式*/
-
 
 /*图片区的样式*/
 #main_pic{
@@ -233,66 +201,4 @@ margin: 0 40px 0 0;
 	height: auto;
 	}
 
-
-/*table{
-	clear: left;
-	margin: 0 auto;
-}
-table,td,th {
-	border: 1px solid green;
-	}
-	th {
-		background-color: green;
-		color: white;
-		}
-	td.average{
-		background-color: green;
-	}*/
-
-
-/*广告栏的样式*/
-.adbox {
-	clear: both;
-	width: 100%;
-	height: 200px;
-	background-color: #E8e8E8;
-	margin-top: 10px;
-}
-.adbox_content {
-	width: 1000px;
-	margin:0 auto;
-	padding-top: 20px;
-}
-.adbox_content ul li {
-	list-style-type: none;
-	float: left;
-	width: 200px;
-	text-align: center;
-	font-size: 18px;
-	font-family: "新宋体";
-	line-height: 30px;
-	color: #999;
-	background-color: #E8e8E8;
-}
-
-.adbox_content ul li ul li a{
-	/*display: inline;*/
-	background-color: #E8e8E8;
-	color: grey;
-	font-size: 14px;
-}
-
-
 /*页脚的样式*/
-footer{
-	background-color: rgb(11,94,165);
-}
-
-.footer_ad p,.footer_ad p a {
-	width: 78%;
-	margin: 10px auto 0;
-	font-family: "宋体";
-	font-size: 16px;
-	color: white;
-	text-align: center;
-}
