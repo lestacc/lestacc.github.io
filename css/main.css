@@ -1,5 +1,4 @@
 .me { 
-	font-size: 20px;
 	font-family: "宋体";
 }
 
@@ -43,17 +42,6 @@
 
 
 .yincang{overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:8;}
-/*微信二维码的样式*/
-img.advx{
-	position:fixed;/*设置元素为固定定位*/
-    top:10%;/*距离浏览器顶部30px*/
-    left:90%;/*举例浏览器左部1000px*/
-    height: 100px;
-    padding: 10px;
-	border:1px solid #ccc;
-	border-radius: 5px;
-	box-shadow: 0 0 3px #ccc;
-}
 
 /*轮播图的大小控制*/
 /*.carousel-inner img {
