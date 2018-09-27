@@ -21,7 +21,7 @@
   
   <body>
   	<!--顶部导航-->
-  	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="menu-nav">
+  	<div class="navbar navbar-inverse navbar-fixed-top geyihang" role="navigation" id="menu-nav">
 		  <div class="container">
 		    <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -30,22 +30,15 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <div  class="navbar-brand me"><a href="index.html">lestacc的个人博客</a></div>
+            <div  class="navbar-brand me">lestacc的个人应用</div>
         </div>
 	     	<div class="navbar-collapse collapse">		
 	     			<ul class="nav navbar-nav">			
-	    				<li class="active"><a href="index.html">网站首页</a></li>
-	    				<li><a href="pic.html">我的文章<span class="badge pull-left">4</span></a></li>
-	    				<li><a href="pic.html">我的相册<span class="badge pull-left">7</span></a></li>
-	    				<li><a href="https://www.baidu.com">留言板<span class="badge pull-left">999+</span></a></li>
-	      			<li><a href="https://github.com">合作链接 </a></li>     			     			     			     			
+	    				<li class="active"><a href="index.html">应用首页</a></li>
+	    				<li><a href="wenzhang.html">歌词收藏<span class="badge pull-left">4</span></a></li>
+	    				<li><a href="pic.html">图片收藏<span class="badge pull-left">7</span></a></li>
+	    				<li><a href="game.html">小游戏<span class="badge pull-left">1</span></a></li>      			     			     			     			     			
 	    			</ul>
-	    			<form action="##" class="navbar-form navbar-right" rol="search">
-	   	    			<div class="form-group">
-	   		   				<input type="text" class="form-control" placeholder="请输入关键词" />
-	   	    			</div>
-	        			<button type="submit" class="btn btn-default">搜索</button>
-	     			</form>
 		   	</div>  			
     	</div>					
 		</div>
@@ -64,17 +57,34 @@
 		            <img src="img/longjuan.jpg" alt="First slide">
 				            <div class="container">
 				                <div class="carousel-caption">
-				                    <h2>战栗的龙卷</h2>				
-				                    <p>本名龙卷，英雄排名S级第2位，超能力者。地狱吹雪的姐姐。</p>				
-				                    <p><a class="btn btn-lg btn-primary" href="#" role="button" target="_blank">查看更多</a></p>
+				                    <h2>图片收藏</h2>				
+				                   <br/>
+				                   <br/>
+				                    <p><a class="btn btn-lg btn-primary" href="pic.html" role="button" target="_blank">点击查看</a></p>
 				                </div>
 		            		</div>
 		        </div>
 		        <div class="item">
-		            <img src="img/longzhu.jpg" alt="Second slide">
+		            <img src="img/longzhu.jpg" alt="First slide">
+				            <div class="container">
+				                <div class="carousel-caption">
+				                    <h2>歌曲收藏</h2>				
+														<br/>
+				                    <br/>
+				                    <p><a class="btn btn-lg btn-primary" href="wenzhang.html" role="button" target="_blank">点击查看</a></p>
+				                </div>
+		            		</div>
 		        </div>
 		        <div class="item">
-		            <img src="img/manwei.jpg" alt="Third slide">
+		            <img src="img/manwei.jpg" alt="First slide">
+				            <div class="container">
+				                <div class="carousel-caption">
+				                    <h2>小游戏</h2>				
+				         	          <br/>
+				                    <br/>
+				                    <p><a class="btn btn-lg btn-primary" href="game.html" role="button" target="_blank">点击查看</a></p>
+				                </div>
+		            		</div>
 		        </div>
 		    </div>
 		    <!-- 轮播（Carousel）导航 -->
@@ -97,15 +107,15 @@
 					<div class="col-sm-4">
 
 						<div class="panel panel-default">
-							<div class="panel-heading">关于我</div>
+							<div class="panel-heading">关于这个应用</div>
 							<div class="panel-body">
 								<img class="img-responsive picleftpad mypic" src="img\hulk.jpg">
-							<p class="ppad">&emsp;&emsp;lestacc,18年入行。华中师范大学研究生在读，一边学习一边积累经验，分享一些个人学习心得体会，这个博客只做个人学习使用，不做其他用途。接下来的都是凑字数，可以不用看了。</p>
+							<p class="ppad">&emsp;&emsp;这是一个简单的WEB app。<a>https://github.com/lestacc</a>源码可以直接在我的Github上面看。不过直男审美所以做的可能比较丑。</p>
 							</div>
 						</div>
    
 						<div class="panel panel-default">
-							<div class="panel-heading">我的相册</div>
+							<div class="panel-heading"><a href="pic.html">图片收藏</a></div>
 							<div class="panel-body">
 								<a href="pic.html"><img class="img-responsive picleftpad mypic" src="img/yanlingji.jpg"></a>
 	  						<a href="pic.html"><img class="img-responsive picleftpad mypic" src="img/manwei.jpg"></a>
@@ -117,29 +127,44 @@
 						</div>
 
 						<div class="panel panel-default">
-							<div class="panel-heading">我的文章</div>
-							<div class="panel-body">&emsp;好吧我承认我还没有写过什么文章，接下来的仍然是凑字数的不用看了，以后会慢慢更新的。<br/>&emsp;&emsp;&emsp;床前明月光，疑是地上霜。<br/>&emsp;&emsp;&emsp;举头望明月，低头思故乡。</div>
+							<div class="panel-heading"><a href="wenzhang.html">歌曲收藏</a></div>
+							<div class="panel-body">&emsp;这段时间听嘻哈比较多，所以都是嘻哈的歌</div>
 							<table class="table table-bordered">
 								<thead>
 									<tr>
 										<th>＃</th>
-										<th>文章</th>
-										<th>时间</th>
+										<th>歌名</th>
+										<th>作者</th>
 									</tr>
 								</thead>
 								<tbody>
 									<tr>
 										<td>1</td>
-										<td>《抱歉我还没写过嘿嘿》</td>
-										<td>1999-12-31</td>
+										<td>《 rap god 》</td>
+										<td>emimn</td>
+									</tr>
+									<tr>
+										<td>2</td>
+										<td>《 空城计 》</td>
+										<td>GAI</td>
+									</tr>
+									<tr>
+										<td>3</td>
+										<td>《 After Journey 》</td>
+										<td>艾福杰尼</td>
+									</tr>
+									<tr>
+										<td>4</td>
+										<td>《 崂山道士 》</td>
+										<td>马思维</td>
 									</tr>
 								</tbody>
 							</table>
-							<div class="panel-footer">作者：Lestacc</div>
+							<div class="panel-footer">版权没有</div>
 						</div>
 
 						<div class="panel panel-default">
-						<div class="panel-heading">站长推荐</div>     					   						
+						<div class="panel-heading"><a href="wenzhang.html">小游戏</a></div>     					   						
 							<ul class="list-group">
 		  					<li class="list-group-item"><a href="https://www.baidu.com">这鼓点不断敲，手势不用我去教</a></li>
 		  					<li class="list-group-item"><a href="https://www.baidu.com">绝对熟悉的味道装满压力的背包</a></li>
@@ -152,17 +177,7 @@
 					</div>
 	     		
  					<div class="col-sm-7">
-				
-						<div class="panel panel-default">
-							<div class="panel-heading">Rap God （Eminem）</div>
-							<div class="panel-body">
-								<img class="img-responsive picleftpad mypic2" src="img\anna4.gif">
-								<p class="yincang">
-									&emsp;&emsp;[Intro] – Look, I was gonna go easy on you not to hurt your feelings – But I'm only going to get this one chance – Something's wrong, I can feel it (Six minutes, Slim Shady, you're on) – Just a feeling I've got, like something's about to happen, but I don't know what – If that means, what I think it means, we're in trouble – big trouble – and if he is as bananas as you say, I'm not taking any chances – You were just what the doc ordered [Hook] I'm beginning to feel like a Rap God, Rap God All my people from the front to the back nod, back nod Now who thinks their arms are long enough to slapbox, slapbox? They said I rap like a robot, so call me Rapbot, but for me to rap Like a computer must be in my genes, I got a laptop in my back pocket [Verse 1] My pen'll go off when I half-cock it, got a fat knot from that rap profit Made a living and a killing off it, ever since Bill Clinton was still in office With Monica Lewinsky feeling on his nutsack, I'm an MC still as honest But as rude and indecent as all hell, syllables, killaholic (Kill 'em all with) This slickety, gibbedy, hibbedy hip hop You don't really wanna get into a pissin match With this rappidy rap, packing a Mac in the back of the Ac, pack backpack rap yep yackidy yac and at The exact same time I attempt these lyrical acrobat stunts while I'm practicing that I'll still be able to break a motherfuckin' table over the back of a couple of faggots and crack it in half Only realized it was ironic I was signed to Aftermath after the fact How could I not blow? All I do is drop F-bombs, feel my wrath of attack Rappers are having a rough time, period, here's a maxipad It's actually disastrously bad for the wack to masterfully constructing this masterpiece as [Hook] I'm beginning to feel like a Rap God, Rap God All my people from the front to the back nod, back nod Now who thinks their arms are long enough to slapbox, slapbox? Let me show you maintaining this shit ain't that hard, that hard Everybody want the key and the secret to rap immortality like I have got [Verse 2] Well, to be truthful the blueprint's simply rage and youthful excuberance Everybody loves to root for a nuisance Hit the earth like an asteroid, did nothing but chew other moons since Emcees get taken to school with this music cause I use it as a vehicle to bust a rhyme Now I lead a new school full of students Me, I'm a product of Rakim, Lakim Shabazz, 2Pac N.W.A., Cube, Doc, Ren, Yella, Eazy, thank you they got Slim Inspired enough to one day grow up, blow up and be in a position To meet Run DMC and induct them into the motherfuckin' Rock N' Roll Hall Of Fame Even though I walk in the church and burst in a ball of flames Only Hall of Fame I be inducted in is the alcohol of fame On the wall of shame You fags think it's all a game till I walk a flock of flames Off of planking, tell me what in the fuck are you thinking? Little gay looking boy, so gay I can barely say it with a straight face looking boy You witnessing a massacre like you watching a church gathering take place looking boy Oy vey, that boy's gay, that's all they say looking boy You get a thumbs up, pat on the back and a way to go from your label everyday looking boy Hey, looking boy, what you say looking boy? I got a hell yeah from Dre looking boy I'mma work for everything I have, never ask nobody for shit Get outta my face looking boy Basically boy you're never gonna be capable to keep up with the same pace looking boy [Hook] I'm beginning to feel like a Rap God, Rap God All my people from the front to the back nod, back nod The way I'm racing around the track, call me Nascar, Nascar Dale Earndheart of the trailer park, the White Trash God Kneel before General Zod this planet Krypton, no Asgard [Verse 3] So you be Thor and I'll be Odin, you rodent, I'm omnipotent Let off then I'm reloading immediately with these bombs I'm totin' And I should not be woken I'm the walking dead, but I'm just a talking head, a zombie floating But I got your mom deep throating I'm out my ramen noodle We have nothing in common, poodle I'm a doberman pinch yourself in the arm and pay homage, pupil It's me, my honesty's brutal But it's honestly futile if I don't utilize what I do though For good at least once in a while So I wanna make sure somewhere in this chicken scratch, I Scribble and doodle Enough rhymes to maybe to try and help get some people through tough times But I gotta keep a few punchlines Just in case cause even you unsigned Rappers are hungry looking at me like it's lunchtime I know there was a time where once I Was king of the underground, but I still rap like I'm on my Pharoahe Monch grind So I crunch rhymes, but sometimes when you combine A pill with the skin color of mine You get too big and here they come tryna Censor you like that one line I said back all along on the Mathers LP One where I tried to say I take seven kids from Columbine Put 'em all in a line, add an AK-47, a revolver and a nine [Verse 4] See if I get away with it now that I ain't as big as I was but I'm Morph into an immortal, coming through the portal But you're stuck in a timewarp from 2004 though And I don't know what the fuck that you rhyme for You're pointless as Rapunzel with fucking cornrolls Fuck being normal And I just bought a new raygun from the future to just come and shoot ya Like when Fabolous made Ray J mad Cause Fab said he looked like a fag at Maywhether’s pad singin' to a man while they played piano Oh, man, oh, that was a 24/7 special on the cable channel So Ray J went straight to the radio station the very next day ''Hey, Fab, I'mma kill you'' Lyrics coming at you at supersonic speed Uh, sama lamaa duma lamaa you assuming I'm a human What I gotta do to get it through to you I'm superhuman Innovator, made of rubber so that anything you saying ricocheting off of me and it'll glue to you I'm never stating, more than never demonstrating how to give a mother fuckin' audience a feeling like it's levitating Never fading, and I know that the haters are forever waiting For the day that they can say I fell off, they'd be celebrating Cause I know the way to get 'em motivated, I make elevating music You make elevator music Oh, he's too mainstream - well, that's what they do when they get jealous, they confuse it It's not hip hop, it's pop, cause I found a hella way to fuse it With rock, shock rap with Doc Go and lose yourself and make them loose it I don't know how to make songs like that, I don't know what words to use Let me know when it occurs to you while I’m ripping any one of these verses diverse as you, it’s curtains, I’m inadvertently hurtin' you How many verses I gotta murder to prove That if you're half as nice at songs you can sacrifice virgins too School flunkie, pill junky But look at the accolades the skills brung me Full of myself, but still hungry I bully myself cause I make me do what I put my mind to And I'm a million leagues above you Ill when I speak in tongues, but it's still tongue in cheek, fuck you I'm drunk so Satan take the fucking wheel, I'm asleep in the front seat Bumping Heavy D and the Boys, still chunky, but funky But in my head there's something I can feel tugging and struggling Angels fighting with devils, here's what they want from me They asking me to eliminate some of the women hate But if you take into consideration the bitter hatred that I had Then you may be a little patient and more symphatetic to the situation And understand the discrimation But fuck it, life's handing you lemons, make lemonade then But if I can't batter the women how the fuck am I supposed to bake them a cake then? Don't mistake it for Satan It's a fatal mistake if you think I need to be overseas and take a vacation to trip a broad And make her fall on her face and don't be a retard Be a king? Think not - why be a king when you can be a God?
-								</p>
-							</div>
-						</div>	
-		
+						
 						<div class="panel panel-default">
 							<div class="panel-heading">空城计（GAI）</div>
 							<div class="panel-body">
@@ -176,19 +191,19 @@
 						<div class="panel panel-default">
 							<div class="panel-heading">After Journey（艾福杰尼）</div>
 							<div class="panel-body">
-								<img class="img-responsive picleftpad mypic2" src="img\pikaqiu.gif">
-						<p class="yincang">
-							&emsp;&emsp;Start with the simple knock knock knock knock I don't give a thing about u guys bulabulabula Start with the simple knock knock knock knock I don't give a After journey still rock on 从来不被打败 太多人想看我出丑那么你就当面来 两张嘴在人前背后造谣左右夹击 感谢微博出了屏蔽能让我松一口气 可下一秒呼吸发现这里空气不干净 妈妈说人善被人欺我始终不相信 直到今天为止 发现妈妈你说的清醒 这面斑驳的老墙为何刷上油漆 她说 只有胜利者才配写历史 Loser 只能照镜子继续走 就算平日也不停滞 哭着给谁听 如今只能拼 一个人要怎么拼 我的部队如今有人当逃兵 又在深夜2 点半的 再次辗转反侧 翻来覆去不止身体还有悲欢离合 这时兄弟女人音乐金钱 不分前后脑中闪过 怎么才能摆脱随便几句怎能概括 oh no 也曾幻想站高处 俯视大地左手搂着她 也想有个家 可又唱了八个八 又把球鞋擦了擦 没了目标怕不怕 说实话放不下让我说些真心话 为什么为什么你的每天都是瓶颈 认为自己还是个孩子天真数着星星 你该庆幸是场噩梦当你从梦中惊醒 你还活着你还继续那就千万别认命 我的 bro 现在的我烟都不抽 怎么跟你 flow 都说了 I got headache Please drive little bit slow 受够了你们的欲望 再多的物质都会嫌不够 What the world who support ignored 每个人眼珠打转转 打着小算盘准备抢饭碗 可你低估我判断可以算计我看看 我多尴尬在那里长大却不能代表它 就像你深爱的姑娘被个傻子带回家 I hope not so far Please just don't let me die Music in my blood Please take me to the sky I hope not so far Please just don't let me die Music in my blood Please take me to the sky 你们都怎么了成功在等着呢 为何不继续呢脑袋在想什么 怎么还抑郁了不是有积蓄么 不就是曲折么继续的说 别人的伤疤继续的戳 没有底线的继续的脱 二十四岁都感慨颇多 都同样疲惫的嫌我啰嗦 Make the money make the rain Eat the candy fire the pain Stop your 不屑 Let me kick it Let me grab it Over the game Hold alone I need more More hate and more tour One pass and one shot It makes me feel gorgeous Gorgeous yeah I need every body to be gorgeous I need every things to be gorgeous I need every day to be gorgeous Do you remember my friend Do you remember my friend Do you remember my friend One more time I hope not so far Please just don't let me die Ooh music in my blood Please take me to the sky I hope not so far Please just don't let me die Ooh music in my blood Please take me to the sky After journey drive slow Drive slow After journey Drive slow Drive slow After journey Drive slow Drive slow We take you down
+								<img class="img-responsive picleftpad mypic2" src="img\manwei01.gif">
+								<p class="yincang">
+									&emsp;&emsp;Start with the simple knock knock knock knock I don't give a thing about u guys bulabulabula Start with the simple knock knock knock knock I don't give a After journey still rock on 从来不被打败 太多人想看我出丑那么你就当面来 两张嘴在人前背后造谣左右夹击 感谢微博出了屏蔽能让我松一口气 可下一秒呼吸发现这里空气不干净 妈妈说人善被人欺我始终不相信 直到今天为止 发现妈妈你说的清醒 这面斑驳的老墙为何刷上油漆 她说 只有胜利者才配写历史 Loser 只能照镜子继续走 就算平日也不停滞 哭着给谁听 如今只能拼 一个人要怎么拼 我的部队如今有人当逃兵 又在深夜2 点半的 再次辗转反侧 翻来覆去不止身体还有悲欢离合 这时兄弟女人音乐金钱 不分前后脑中闪过 怎么才能摆脱随便几句怎能概括 oh no 也曾幻想站高处 俯视大地左手搂着她 也想有个家 可又唱了八个八 又把球鞋擦了擦 没了目标怕不怕 说实话放不下让我说些真心话 为什么为什么你的每天都是瓶颈 认为自己还是个孩子天真数着星星 你该庆幸是场噩梦当你从梦中惊醒 你还活着你还继续那就千万别认命 我的 bro 现在的我烟都不抽 怎么跟你 flow 都说了 I got headache Please drive little bit slow 受够了你们的欲望 再多的物质都会嫌不够 What the world who support ignored 每个人眼珠打转转 打着小算盘准备抢饭碗 可你低估我判断可以算计我看看 我多尴尬在那里长大却不能代表它 就像你深爱的姑娘被个傻子带回家 I hope not so far Please just don't let me die Music in my blood Please take me to the sky I hope not so far Please just don't let me die Music in my blood Please take me to the sky 你们都怎么了成功在等着呢 为何不继续呢脑袋在想什么 怎么还抑郁了不是有积蓄么 不就是曲折么继续的说 别人的伤疤继续的戳 没有底线的继续的脱 二十四岁都感慨颇多 都同样疲惫的嫌我啰嗦 Make the money make the rain Eat the candy fire the pain Stop your 不屑 Let me kick it Let me grab it Over the game Hold alone I need more More hate and more tour One pass and one shot It makes me feel gorgeous Gorgeous yeah I need every body to be gorgeous I need every things to be gorgeous I need every day to be gorgeous Do you remember my friend Do you remember my friend Do you remember my friend One more time I hope not so far Please just don't let me die Ooh music in my blood Please take me to the sky I hope not so far Please just don't let me die Ooh music in my blood Please take me to the sky After journey drive slow Drive slow After journey Drive slow Drive slow After journey Drive slow Drive slow We take you down
 								</p>
 							</div>
 						</div>
 		
 						<div class="panel panel-default">
-							<div class="panel-heading">崂山道士（马思唯）</div>
+							<div class="panel-heading">暴风雨（马思唯）</div>
 							<div class="panel-body">
-								<img class="img-responsive picleftpad mypic2" src="img\nvwu.gif">
-						<p class="yincang">
-							&emsp;&emsp;想学功夫修炼仙术先征服这条山路 我在三清观里录歌旋律和韵脚兼顾 　　看我点石成金把黑的说成白 　　用身体穿过墙壁想抓我的随便来 　　从嘴里吐出字句流动着滑入你的耳朵 　　这感觉刺激整个身体像被异性抚摸 　　找回你自己来把最真实的声音捕捉 　　最猛的招式新鲜的听觉冲击诱惑 　　我随手招来了月亮当我们party在晚上 　　嫦娥都脱光了衣裳当我把音乐给播放 　　炫耀着新鲜招式变出美食放在桌上 　　把酒言欢造字眯着眼睛慢慢欣赏 　　跟着晃继续 ya wanna rap like me 　　会说唱的神仙把词句变金币 　　教你穿墙壁王七你看仔细 　　别动了邪念坑蒙拐骗咒语用心记 　　Hook： 　　要学神仙 驾鹤飞天 　　点石成金 妙不可言 　　要到崂山去学仙（here we go ） 　　定要到崂山去学仙（here we go ） 　　要到崂山去学仙（here we go ） 　　定要到崂山去学仙（here we go ）神仙传成天看像个科学家在琢磨 　　谁他妈在乎诗经里面怎么做 　　蒲松龄字留仙聊斋志异传遍 　　四次举人考试落榜 72岁才实现 　　我的flow是仙术让他们都羡慕我 　　把所有认知颠覆开办押韵研究所 　　别指望天赋 靠谁帮助 自己寻找线索 　　让自己经历丰富机会抓住 瞄准开火 　　就像是中国传统山水画的风景 　　带领你游山玩水展示我独特个性 　　去感受身体给的反应 知道你如此感性 　　当药物不能救治还有音乐治疗疾病 　　Its best vocal Best MC 　　情不自禁拿上几克换我rap cd 　　别坏了规矩先明白对错 　　怎么玩都陪你 I'll show you hardcore想立即学习穿墙术先领悟到大智慧 　　不用功成功是品尝不到的滋味 　　准备好交学费我来做你领袖 　　在传播范围内没人能比我说的溜 　　看我玩技巧耍弯刀打击伪劣假冒 [1] 刚学点皮毛你就炫耀 动作实在搞笑 　　当听到 DJ Scratch 崂山道士驾到 　　识货的摇动你的身体 Clap your hands come on 　　切磋功夫不需要所谓的评审 　　发生冲突我发动海啸和地震 　　居住成都很舒服火锅做陪衬 　　没事就翻翻神仙传这生活很滋润
+								<img class="img-responsive picleftpad mypic2" src="img\ai1.gif">
+								<p class="yincang">
+									&emsp;&emsp;I ain't 50 I don't have 21 questions 我只想和你 在沙滩散步享受 vacation 加州的天气 是否像你的笑容般甜蜜 我带上面具 假装你不在我依然开心 Uh ha uh 暴风雨来临 电闪又雷鸣 争强好胜的我可惜这一局没赢 暴风雨来临 电闪又雷鸣 对你的爱 就像雨下了 一夜未停 You so sweet 不同颜色的糖不同水果味 You are purple yellow pink blue orange or green I don't wanna be a friend 不能只是 be your friend 当你感到困惑时我说让月亮去作证 什么事 都不做 和你躺着 all day 你是天使 你是公主 是偷心的魔鬼 我在高速行驶的列车上快要脱轨 爱你使我失去理智冲向悬崖坠毁 Uh突然乌云 风暴 覆盖了所有通道 我没有带伞 也没有收看天气预报 Paris Tokyo 你定了哪张机票 我漫无目的 散步在没有人的街道 就让暴风雨来临 yeah 电闪又雷鸣 Yeah 争强好胜的我可惜这一局没赢 Yeah 暴风雨来临 yeah 电闪又雷鸣 Yeah 对你的爱就像雨下了 一夜未停 I don't wanna nobody else but you I can't have nobody else but you Girl I ain't 50 I don't have 21 questions 我只想和你 在沙滩散步享受 vacation 加州的天气 是否像你的笑容般甜蜜 我带上面具 假装你不在我依然开心 Uh ha uh 暴风雨来临 电闪又雷鸣 争强好胜的我可惜这一局没赢 暴风雨来临 电闪又雷鸣 对你的爱就像雨下了一夜未停
 								</p>
 							</div>
 						</div>
@@ -196,61 +211,6 @@
 							
 		  </div>
     </div>
-
-		<hr/>
-	  <footer class="footer ">
-		  <div class="container">
-		    <div class="row footer-top">
-		      <div class="col-md-6">
-		        <h4>
-		          <img src="img/qq.jpg" width="102" height="102"/>
-		          <p>&emsp;我的QQ</p>
-		        </h4>
-		      </div>
-		      <div class="col-md-6">
-		        <div class="row about">
-		          <div class="col-sm-4">
-		            <h4>关于</h4>
-		            <ul class="list-unstyled">
-		              <li><a href="https://www.baidu.com">网站介绍</a></li>
-		          		<li><a href="https://www.baidu.com">个人介绍</a></li>
-		          		<li><a href="https://www.baidu.com">书面介绍</a></li>
-		          		<li><a href="https://www.baidu.com">正式介绍</a></li>
-		            </ul>
-		          </div>
-		          <div class="col-sm-4">
-		            <h4>联系方式</h4>
-		            <ul class="list-unstyled">
-		              <li><a href="https://www.baidu.com">微信公众</a></li>
-				          <li><a href="https://www.baidu.com">QQ公众</a></li>
-				          <li><a href="https://www.baidu.com">微博公众</a></li>
-				          <li><a href="https://www.baidu.com">阿里公众</a></li>
-		            </ul>
-		          </div>
-		          <div class="col-sm-4">
-		            <h4>留言</h4>
-		            <ul class="list-unstyled">
-		              <li><a href="https://www.baidu.com">意见反馈</a></li>
-				          <li><a href="https://www.baidu.com">问题留言</a></li>
-				          <li><a href="https://www.baidu.com">媒体联络</a></li>
-				          <li><a href="https://www.baidu.com">在线客服</a></li>
-		            </ul>
-		          </div>
-		        </div>
-		      </div>
-		    </div>
-		    
-		    <hr/>
-		    
-		    <div class="row footer-bottom">
-		      <ul class="list-inline text-center">
-		        <li><a href="http://www.miibeian.gov.cn/" target="_blank">京ICP备12345678号</a></li><li>京公网安备1234567890123</li>
-		      </ul>
-		    </div>
-		    
-		  </div>
-		</footer>
-
     <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
     <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
     <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
