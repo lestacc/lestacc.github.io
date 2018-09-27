@@ -117,68 +117,6 @@
 }
 
 
-/*图片区的样式*/
-#main_pic{
-		-webkit-column-width:229px;
-		-moz-column-width:229px;
-		-o-column-width:229px;
-		-ms-column-width:229px;
-	}
-.picbox{
-	padding: 10px 0 0 15px;
-	display: inline-block;
-	}
-.pic{
-	padding: 10px;
-	border:1px solid #ccc;
-	border-radius: 5px;
-	box-shadow: 0 0 3px #ccc;
-	width:192px;
-	}
-.pic img{
-	width:192px;
-	height: auto;
-	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .zhengwen{
 	margin: 70px auto 0 auto;
@@ -192,7 +130,7 @@
 	border:1px solid #ccc;
 	border-radius: 5px;
 	box-shadow: 0 0 3px #ccc;
-	width:30%;
+	width:29%;
 }
 
 .mypic2{
